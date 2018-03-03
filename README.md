@@ -1,6 +1,14 @@
-# mytasks-eureka-service
+# general-purpose-environment
 
-Authorization Server responsible for verifying credentials and providing access tokens.
+General purpose micro-services and architecture provide an extended and robust base from where a new project
+can be started and developed following a consolidated agile approach and with the most used and assumed technologies in the 
+micro-service spring development ecosystem.
+
+Take a look on [General Purpose Environment](https://gist.github.com/prperiscal/900729941edc5d5ddaaf9e21e5055a62) to get more information on how everything integrates together and how the agile development should work.
+
+# general-purpose-eureka-service
+
+This project provides Netflix OSS integrations for Spring Boot apps through autoconfiguration and binding to the Spring Environment and other Spring programming model idioms. 
 
 
 ## Contributing
@@ -21,24 +29,23 @@ Please read [WORKFLOW-BRANCHING](https://gist.github.com/prperiscal/ce8b8b5a9e0f
 
 Get you a copy of the project up and running on your local machine for development and testing purposes with:
 ```
-git clone https://github.com/prperiscal/mytasks-eureka-service
+git clone https://github.com/prperiscal/general-purpose-eureka-service
 ```
-See deployment for notes on how to deploy the project on a live system.
+Also, this service can be started with docker:
+```
+docker pull quay.io/prperiscal/general-purpose-eureka-service:1.0.0-SNAPSHOT
+```
+Change the version as desire.
 
 ### Prerequisites
 
-This service must be 
+No prerequisites are need to run this service.
 
 ## Internals
 
 Here is explained what is the Eureka server and how is it configured.
 
-### OAuth 2.0
-
-
-### Endpoints and their purpose
-
-[Waiting for doc-apis].
+[TODO]
 
 ## Authors
 
